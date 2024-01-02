@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{B63E4397-8AE6-4131-9938-322A90EC1311}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{A81DEF38-5C71-4B94-AE87-12AEFDAA77CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B63E4397-8AE6-4131-9938-322A90EC1311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B63E4397-8AE6-4131-9938-322A90EC1311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B63E4397-8AE6-4131-9938-322A90EC1311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81DEF38-5C71-4B94-AE87-12AEFDAA77CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81DEF38-5C71-4B94-AE87-12AEFDAA77CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81DEF38-5C71-4B94-AE87-12AEFDAA77CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81DEF38-5C71-4B94-AE87-12AEFDAA77CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
