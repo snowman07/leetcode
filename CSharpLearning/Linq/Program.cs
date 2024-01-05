@@ -6,13 +6,13 @@
 using Linq;
 using System.Linq;
 
-var myBooks = new List<Book>
-            {
-                new Book {Title = "Advanced C#", Price = 9.99},
-                new Book {Title = "OOP with C#", Price = 14.99},
-                new Book {Title = "C# For Beginners", Price = 19.99},
-                new Book {Title = "Complete ASP.NET Core", Price = 29.99}
-            };
+//var myBooks = new List<Book>
+//            {
+//                new Book {Title = "Advanced C#", Price = 9.99},
+//                new Book {Title = "OOP with C#", Price = 14.99},
+//                new Book {Title = "C# For Beginners", Price = 19.99},
+//                new Book {Title = "Complete ASP.NET Core", Price = 29.99}
+//            };
 
 ////Without LINQ
 //foreach (var book in myBooks)
@@ -24,7 +24,8 @@ var myBooks = new List<Book>
 //}
 
 //With LINQ
-//var myNewBooks = myBooks.Where(b => b.Title.Contains("C#")).Select(b => b.Price);
+List<Book> myBooks = ListOfBooks.bookSampleData();
+//var myNewBooks = myBooks.Where(b => b.Title.Contains("C#")).Select(b => b.Title);
 var myNewBooks = myBooks.Where(b => b.Title.Contains("C#"))
     .OrderBy(b => b.Title)
     .Select(b => b.Title);
@@ -33,3 +34,4 @@ foreach (var book in myNewBooks)
     Console.WriteLine(book);
 }
 
+Console.ReadLine();
